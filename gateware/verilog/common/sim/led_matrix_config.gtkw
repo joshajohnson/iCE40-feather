@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 12:01:22 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/out/led_matrix_out.lxt"
+[dumpfile_mtime] "Sat Jan  9 12:00:09 2021"
+[dumpfile_size] 11078822
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/sim/led_matrix_config.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1809 0
+*-29.000000 794000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] led_matrix_tb.
+[sst_width] 233
+[signals_width] 194
+[sst_expanded] 1
+[sst_vpaned_height] 308
+@28
+led_matrix_tb.inst_led_matrix.clk[0]
+@22
+led_matrix_tb.inst_led_matrix.img[35:0]
+@24
+led_matrix_tb.inst_led_matrix.rowCnt[2:0]
+@28
+led_matrix_tb.inst_led_matrix.row[5:0]
+led_matrix_tb.inst_led_matrix.colOut[5:0]
+[pattern_trace] 1
+[pattern_trace] 0

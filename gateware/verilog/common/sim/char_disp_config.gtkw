@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 11:45:25 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/out/char_disp_out.lxt"
+[dumpfile_mtime] "Sat Jan  9 11:44:47 2021"
+[dumpfile_size] 110504
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/sim/char_disp_config.gtkw"
+[timestart] 145000
+[size] 1848 1016
+[pos] -39 -39
+*-19.000000 1195000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] char_disp_tb.
+[sst_width] 233
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+char_disp_tb.inst_char_disp.clk[0]
+@820
+char_disp_tb.inst_char_disp.data[7:0]
+@c00023
+char_disp_tb.inst_char_disp.img[35:0]
+@28
+(0)char_disp_tb.inst_char_disp.img[35:0]
+(1)char_disp_tb.inst_char_disp.img[35:0]
+(2)char_disp_tb.inst_char_disp.img[35:0]
+(3)char_disp_tb.inst_char_disp.img[35:0]
+(4)char_disp_tb.inst_char_disp.img[35:0]
+(5)char_disp_tb.inst_char_disp.img[35:0]
+(6)char_disp_tb.inst_char_disp.img[35:0]
+(7)char_disp_tb.inst_char_disp.img[35:0]
+(8)char_disp_tb.inst_char_disp.img[35:0]
+(9)char_disp_tb.inst_char_disp.img[35:0]
+(10)char_disp_tb.inst_char_disp.img[35:0]
+(11)char_disp_tb.inst_char_disp.img[35:0]
+(12)char_disp_tb.inst_char_disp.img[35:0]
+(13)char_disp_tb.inst_char_disp.img[35:0]
+(14)char_disp_tb.inst_char_disp.img[35:0]
+(15)char_disp_tb.inst_char_disp.img[35:0]
+(16)char_disp_tb.inst_char_disp.img[35:0]
+(17)char_disp_tb.inst_char_disp.img[35:0]
+(18)char_disp_tb.inst_char_disp.img[35:0]
+(19)char_disp_tb.inst_char_disp.img[35:0]
+(20)char_disp_tb.inst_char_disp.img[35:0]
+(21)char_disp_tb.inst_char_disp.img[35:0]
+(22)char_disp_tb.inst_char_disp.img[35:0]
+(23)char_disp_tb.inst_char_disp.img[35:0]
+(24)char_disp_tb.inst_char_disp.img[35:0]
+(25)char_disp_tb.inst_char_disp.img[35:0]
+(26)char_disp_tb.inst_char_disp.img[35:0]
+(27)char_disp_tb.inst_char_disp.img[35:0]
+(28)char_disp_tb.inst_char_disp.img[35:0]
+(29)char_disp_tb.inst_char_disp.img[35:0]
+(30)char_disp_tb.inst_char_disp.img[35:0]
+(31)char_disp_tb.inst_char_disp.img[35:0]
+(32)char_disp_tb.inst_char_disp.img[35:0]
+(33)char_disp_tb.inst_char_disp.img[35:0]
+(34)char_disp_tb.inst_char_disp.img[35:0]
+(35)char_disp_tb.inst_char_disp.img[35:0]
+@1401201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

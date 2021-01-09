@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 11:55:00 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/out/debounce_out.lxt"
+[dumpfile_mtime] "Sat Jan  9 11:52:43 2021"
+[dumpfile_size] 54785856
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/sim/debounce_config.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1809 0
+*-35.000000 864000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] debounce_tb.
+[treeopen] debounce_tb.inst_debounce.
+[sst_width] 233
+[signals_width] 229
+[sst_expanded] 1
+[sst_vpaned_height] 339
+@28
+debounce_tb.inst_debounce.clk[0]
+debounce_tb.inst_debounce.button[0]
+@200
+-Sampling
+@28
+debounce_tb.inst_debounce.dbPulse[0]
+@29
+debounce_tb.inst_debounce.shiftReg[7:0]
+@28
+debounce_tb.inst_debounce.shiftRegDb[1:0]
+@200
+-Outputs
+@28
+debounce_tb.inst_debounce.button_db[0]
+debounce_tb.inst_debounce.button_rising[0]
+debounce_tb.inst_debounce.button_falling[0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 12:22:46 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/out/uart_tx_out.lxt"
+[dumpfile_mtime] "Sat Jan  9 12:21:20 2021"
+[dumpfile_size] 444816
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/sim/uart_tx_config.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1809 -66
+*-28.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] uart_tx_tb.
+[sst_width] 233
+[signals_width] 218
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@28
+uart_tx_tb.inst_uart_tx.clk[0]
+@29
+uart_tx_tb.inst_uart_tx.ready[0]
+@820
+uart_tx_tb.inst_uart_tx.data[7:0]
+@28
+uart_tx_tb.inst_uart_tx.data[7:0]
+@2022
+^1 /mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/sim/uart_enum.txt
+uart_tx_tb.inst_uart_tx.state[3:0]
+@28
+uart_tx_tb.inst_uart_tx.uart_tx[0]
+[pattern_trace] 1
+[pattern_trace] 0

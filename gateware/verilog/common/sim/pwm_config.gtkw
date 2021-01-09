@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 12:13:07 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/out/pwm_out.lxt"
+[dumpfile_mtime] "Sat Jan  9 12:12:57 2021"
+[dumpfile_size] 1116303
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/verilog/common/sim/pwm_config.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1809 0
+*-30.000000 754000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pwm_tb.
+[treeopen] pwm_tb.inst_pwm.
+[sst_width] 233
+[signals_width] 217
+[sst_expanded] 1
+[sst_vpaned_height] 318
+@28
+pwm_tb.inst_pwm.clk[0]
+pwm_tb.inst_pwm.enable[0]
+@24
+pwm_tb.inst_pwm.dutyCycle[7:0]
+@22
+pwm_tb.inst_pwm.counter[0:7]
+@28
+pwm_tb.inst_pwm.out[0]
+@200
+-Clock Divider
+@28
+pwm_tb.inst_pwm.inst_clockDividerHz.clk[0]
+pwm_tb.inst_pwm.inst_clockDividerHz.enable[0]
+pwm_tb.inst_pwm.inst_clockDividerHz.rst[0]
+@24
+pwm_tb.inst_pwm.inst_clockDividerHz.counter[31:0]
+@28
+pwm_tb.inst_pwm.inst_clockDividerHz.dividedClk[0]
+[pattern_trace] 1
+[pattern_trace] 0
