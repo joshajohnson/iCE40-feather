@@ -8,3 +8,5 @@
 *.lxt
 *.vcd
 *.history
+
+verilog/out/*
