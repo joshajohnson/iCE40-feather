@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Sep 26 12:21:51 2019
+[*]
+[dumpfile] "/home/josh/Documents/fpga/iCE40-feather/gateware/pwm/sim/pwm_tb.lxt"
+[dumpfile_mtime] "Thu Sep 26 12:21:11 2019"
+[dumpfile_size] 11410106
+[savefile] "/home/josh/Documents/fpga/iCE40-feather/gateware/pwm/sim/gtkwaveConfig.gtkw"
+[timestart] 24674000000
+[size] 2602 1713
+[pos] 134 55
+*-28.000000 25905642000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pwm_tb.
+[treeopen] pwm_tb.inst_top.
+[sst_width] 378
+[signals_width] 342
+[sst_expanded] 1
+[sst_vpaned_height] 518
+@28
+pwm_tb.clk[0]
+pwm_tb.nLED_GRN[0]
+pwm_tb.inst_top.countUp[0]
+pwm_tb.inst_top.dividedPulse[0]
+@25
+pwm_tb.inst_top.dutyCycle[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

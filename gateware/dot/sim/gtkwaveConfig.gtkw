@@ -1,0 +1,112 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 11:29:21 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/dot/sim/dot_tb.lxt"
+[dumpfile_mtime] "Sat Jan  9 11:27:21 2021"
+[dumpfile_size] 16580255
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/dot/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 1848 1016
+[pos] -1 -1
+*-34.037014 19210000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dot_tb.
+[treeopen] dot_tb.inst_top.
+[sst_width] 378
+[signals_width] 471
+[sst_expanded] 1
+[sst_vpaned_height] 537
+@28
+dot_tb.inst_top.clk[0]
+@2022
+^1 /mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/dot/sim/mode_enum.txt
+dot_tb.inst_top.state[3:0]
+^1 /mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/dot/sim/mode_enum.txt
+dot_tb.inst_top.next_state[3:0]
+^2 /mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/dot/sim/display_enum.txt
+dot_tb.inst_top.display[3:0]
+@29
+dot_tb.inst_top.countdown[2:0]
+@800022
++{dot_tb.inst_top.img[35:0]} dot_tb.inst_top.img[35:0]
+@c00028
+#{dot_tb.inst_top.img[5:0]} (30)dot_tb.inst_top.img[35:0] (31)dot_tb.inst_top.img[35:0] (32)dot_tb.inst_top.img[35:0] (33)dot_tb.inst_top.img[35:0] (34)dot_tb.inst_top.img[35:0] (35)dot_tb.inst_top.img[35:0]
+@28
+(30)dot_tb.inst_top.img[35:0]
+(31)dot_tb.inst_top.img[35:0]
+(32)dot_tb.inst_top.img[35:0]
+(33)dot_tb.inst_top.img[35:0]
+(34)dot_tb.inst_top.img[35:0]
+(35)dot_tb.inst_top.img[35:0]
+@1401200
+-group_end
+@c00028
+#{dot_tb.inst_top.img[11:6]} (24)dot_tb.inst_top.img[35:0] (25)dot_tb.inst_top.img[35:0] (26)dot_tb.inst_top.img[35:0] (27)dot_tb.inst_top.img[35:0] (28)dot_tb.inst_top.img[35:0] (29)dot_tb.inst_top.img[35:0]
+@28
+(24)dot_tb.inst_top.img[35:0]
+(25)dot_tb.inst_top.img[35:0]
+(26)dot_tb.inst_top.img[35:0]
+(27)dot_tb.inst_top.img[35:0]
+(28)dot_tb.inst_top.img[35:0]
+(29)dot_tb.inst_top.img[35:0]
+@1401200
+-group_end
+@c00028
+#{dot_tb.inst_top.img[17:12]} (18)dot_tb.inst_top.img[35:0] (19)dot_tb.inst_top.img[35:0] (20)dot_tb.inst_top.img[35:0] (21)dot_tb.inst_top.img[35:0] (22)dot_tb.inst_top.img[35:0] (23)dot_tb.inst_top.img[35:0]
+@28
+(18)dot_tb.inst_top.img[35:0]
+(19)dot_tb.inst_top.img[35:0]
+(20)dot_tb.inst_top.img[35:0]
+(21)dot_tb.inst_top.img[35:0]
+(22)dot_tb.inst_top.img[35:0]
+(23)dot_tb.inst_top.img[35:0]
+@1401200
+-group_end
+@c00028
+#{dot_tb.inst_top.img[23:18]} (12)dot_tb.inst_top.img[35:0] (13)dot_tb.inst_top.img[35:0] (14)dot_tb.inst_top.img[35:0] (15)dot_tb.inst_top.img[35:0] (16)dot_tb.inst_top.img[35:0] (17)dot_tb.inst_top.img[35:0]
+@28
+(12)dot_tb.inst_top.img[35:0]
+(13)dot_tb.inst_top.img[35:0]
+(14)dot_tb.inst_top.img[35:0]
+(15)dot_tb.inst_top.img[35:0]
+(16)dot_tb.inst_top.img[35:0]
+(17)dot_tb.inst_top.img[35:0]
+@1401200
+-group_end
+@c00028
+#{dot_tb.inst_top.img[29:24]} (6)dot_tb.inst_top.img[35:0] (7)dot_tb.inst_top.img[35:0] (8)dot_tb.inst_top.img[35:0] (9)dot_tb.inst_top.img[35:0] (10)dot_tb.inst_top.img[35:0] (11)dot_tb.inst_top.img[35:0]
+@28
+(6)dot_tb.inst_top.img[35:0]
+(7)dot_tb.inst_top.img[35:0]
+(8)dot_tb.inst_top.img[35:0]
+(9)dot_tb.inst_top.img[35:0]
+(10)dot_tb.inst_top.img[35:0]
+(11)dot_tb.inst_top.img[35:0]
+@1401200
+-group_end
+@c00028
+#{dot_tb.inst_top.img[35:30]} (0)dot_tb.inst_top.img[35:0] (1)dot_tb.inst_top.img[35:0] (2)dot_tb.inst_top.img[35:0] (3)dot_tb.inst_top.img[35:0] (4)dot_tb.inst_top.img[35:0] (5)dot_tb.inst_top.img[35:0]
+@28
+(0)dot_tb.inst_top.img[35:0]
+(1)dot_tb.inst_top.img[35:0]
+(2)dot_tb.inst_top.img[35:0]
+(3)dot_tb.inst_top.img[35:0]
+(4)dot_tb.inst_top.img[35:0]
+(5)dot_tb.inst_top.img[35:0]
+@1401200
+-group_end
+@2022
+^3 /mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/dot/sim/direction_enum.txt
+dot_tb.inst_top.direction[3:0]
+@28
+dot_tb.inst_top.error[0]
+@1001200
+-group_end
+@28
+dot_tb.inst_top.pulse_1Hz[0]
+dot_tb.inst_top.btn_up_rising[0]
+dot_tb.inst_top.btn_left_rising[0]
+dot_tb.inst_top.btn_right_rising[0]
+dot_tb.inst_top.btn_down_rising[0]
+[pattern_trace] 1
+[pattern_trace] 0

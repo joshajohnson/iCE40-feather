@@ -1,0 +1,35 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 11:26:41 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/disp_tx/sim/disp_tx_tb.lxt"
+[dumpfile_mtime] "Sat Jan  9 11:26:37 2021"
+[dumpfile_size] 2226059
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/disp_tx/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 1848 1016
+[pos] 5576 25
+*-31.033037 8000286000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] disp_tx_tb.
+[treeopen] disp_tx_tb.inst_top.
+[treeopen] disp_tx_tb.inst_top.inst_uart_tx.
+[sst_width] 378
+[signals_width] 211
+[sst_expanded] 1
+[sst_vpaned_height] 273
+@28
+disp_tx_tb.clk[0]
+@2022
+^1 /mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/disp_tx/sim/state_enum.txt
+disp_tx_tb.inst_top.inst_uart_tx.state[3:0]
+@28
+disp_tx_tb.uart_tx[0]
+@821
+disp_tx_tb.inst_top.inst_uart_tx.data[7:0]
+@28
+disp_tx_tb.inst_top.inst_uart_tx.ready[0]
+disp_tx_tb.inst_top.inst_uart_tx.send[0]
+disp_tx_tb.inst_top.btn_right[0]
+disp_tx_tb.inst_top.btn_up[0]
+[pattern_trace] 1
+[pattern_trace] 0

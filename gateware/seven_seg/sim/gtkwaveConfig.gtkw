@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 11:24:54 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/seven_seg/sim/seven_seg_tb.lxt"
+[dumpfile_mtime] "Sat Jan  9 11:23:25 2021"
+[dumpfile_size] 1105528
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/seven_seg/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1847 -28
+*-21.000000 5870000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] seven_seg_tb.
+[sst_width] 378
+[signals_width] 308
+[sst_expanded] 1
+[sst_vpaned_height] 535
+@28
+seven_seg_tb.inst_top.clk[0]
+@29
+seven_seg_tb.inst_top.sw[7:0]
+@28
+seven_seg_tb.inst_top.seg[6:0]
+seven_seg_tb.inst_top.com[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

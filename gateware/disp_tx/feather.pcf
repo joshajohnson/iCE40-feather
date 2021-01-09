@@ -1,0 +1,76 @@
+# 12 MHz clock
+set_io -nowarn clk        	35
+
+# User LED
+set_io -nowarn nLED 		47
+
+# RGB LED
+set_io -nowarn nLED_RED  	41
+set_io -nowarn nLED_GRN  	40
+set_io -nowarn nLED_BLU  	39
+
+# LED Matrix RGB LED
+set_io -nowarn nLED_RED_fw  6
+set_io -nowarn nLED_GRN_fw  4
+set_io -nowarn nLED_BLU_fw	3
+
+# LED Matrix Pins
+set_io -nowarn row[0]		38
+set_io -nowarn row[1]		37
+set_io -nowarn row[2]		32
+set_io -nowarn row[3]		26
+set_io -nowarn row[4]		27
+set_io -nowarn row[5]		25
+
+set_io -nowarn col[0]		12
+set_io -nowarn col[1]		11
+set_io -nowarn col[2]		10
+set_io -nowarn col[3]		9
+set_io -nowarn col[4]		36
+set_io -nowarn col[5]		28
+
+set_io -nowarn btn_up 		43
+set_io -nowarn btn_left		44
+set_io -nowarn btn_right	2
+set_io -nowarn btn_down 	48
+
+# GPIO
+set_io -nowarn IO_2 		2
+set_io -nowarn IO_3 		3
+set_io -nowarn IO_4 		4
+set_io -nowarn IO_6 		6
+set_io -nowarn IO_9 		9
+set_io -nowarn IO_10		10
+set_io -nowarn IO_11		11
+set_io -nowarn IO_12 		12
+set_io -nowarn IO_13 		13
+set_io -nowarn IO_19 		19
+set_io -nowarn IO_20        20
+set_io -nowarn IO_25 		25
+set_io -nowarn IO_26 		26
+set_io -nowarn IO_27 		27
+set_io -nowarn IO_28 		28
+set_io -nowarn IO_31 		31
+set_io -nowarn IO_32 		32
+set_io -nowarn IO_34 		34
+set_io -nowarn IO_36 		36
+set_io -nowarn IO_37 		37
+set_io -nowarn IO_38 		38
+set_io -nowarn IO_42 		42
+set_io -nowarn IO_43 		43
+set_io -nowarn IO_44 		44
+set_io -nowarn IO_45 		45
+set_io -nowarn IO_46 		46
+set_io -nowarn IO_48 		48
+
+# UART
+set_io -nowarn UART_TX 		21
+set_io -nowarn UART_RX 		23
+
+# SPI Flash
+set_io -nowarn FLASH_SCK  	15
+set_io -nowarn FLASH_SS  	16
+set_io -nowarn FLASH_MOSI  	14
+set_io -nowarn FLASH_MISO  	17
+set_io -nowarn FLASH_nWP  	13
+set_io -nowarn FLASH_HOLD  	18

@@ -1,0 +1,4 @@
+0 	IDLE
+2 	BEGIN
+4 	PLAY
+8 	END

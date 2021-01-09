@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jan  9 11:25:34 2021
+[*]
+[dumpfile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/blink/sim/blink_tb.lxt"
+[dumpfile_mtime] "Sat Jan  9 11:25:22 2021"
+[dumpfile_size] 11060810
+[savefile] "/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/gateware/blink/sim/gtkwaveConfig.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] 1847 -28
+*-17.000000 10038000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] blink_tb.
+[treeopen] blink_tb.inst_top.
+[sst_width] 378
+[signals_width] 342
+[sst_expanded] 1
+[sst_vpaned_height] 535
+@28
+blink_tb.inst_top.clk[0]
+@22
+blink_tb.inst_top.ctr[24:0]
+@29
+blink_tb.inst_top.nLED[0]
+[pattern_trace] 1
+[pattern_trace] 0
