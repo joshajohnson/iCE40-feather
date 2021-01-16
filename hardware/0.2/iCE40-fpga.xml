@@ -1,0 +1,2893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/iCE40-fpga.kicad_sch</source>
+    <date>Sat 16 Jan 2021 22:24:47</date>
+    <tool>Eeschema 5.99.0-unknown-82e728dbf6~106~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>iCE40 Feather</title>
+        <company>Josh Johnson</company>
+        <rev>0.2</rev>
+        <date>2021-01-01</date>
+        <source>iCE40-fpga.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/">
+      <title_block>
+        <title>iCE40 Feather</title>
+        <company>Josh Johnson</company>
+        <rev>0.2</rev>
+        <date>2021-01-01</date>
+        <source>ftdi.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326586
+</field>
+        <field name="MPN">CC0402KRX5R6BB475
+</field>
+        <field name="MPN2">CL05A475KP5NRNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C326586&#xA;"/>
+      <property name="MPN" value="CC0402KRX5R6BB475&#xA;"/>
+      <property name="MPN2" value="CL05A475KP5NRNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000602de7bc</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326586
+</field>
+        <field name="MPN">CC0402KRX5R6BB475
+</field>
+        <field name="MPN2">CL05A475KP5NRNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C326586&#xA;"/>
+      <property name="MPN" value="CC0402KRX5R6BB475&#xA;"/>
+      <property name="MPN2" value="CL05A475KP5NRNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d32f541</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C109453
+</field>
+        <field name="MPN">CC0603MRX5R6BB106
+</field>
+        <field name="MPN2">CL10A106KP8NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109453&#xA;"/>
+      <property name="MPN" value="CC0603MRX5R6BB106&#xA;"/>
+      <property name="MPN2" value="CL10A106KP8NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-000061156fd6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C109453
+</field>
+        <field name="MPN">CC0603MRX5R6BB106
+</field>
+        <field name="MPN2">CL10A106KP8NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109453&#xA;"/>
+      <property name="MPN" value="CC0603MRX5R6BB106&#xA;"/>
+      <property name="MPN2" value="CL10A106KP8NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-000061ae4360</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326586
+</field>
+        <field name="MPN">CC0402KRX5R6BB475
+</field>
+        <field name="MPN2">CL05A475KP5NRNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C326586&#xA;"/>
+      <property name="MPN" value="CC0402KRX5R6BB475&#xA;"/>
+      <property name="MPN2" value="CL05A475KP5NRNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d32f547</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C109453
+</field>
+        <field name="MPN">CC0603MRX5R6BB106
+</field>
+        <field name="MPN2">CL10A106KP8NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109453&#xA;"/>
+      <property name="MPN" value="CC0603MRX5R6BB106&#xA;"/>
+      <property name="MPN2" value="CL10A106KP8NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000612279d5</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d0fd1d2</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005df172e1</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d6de6fe</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C109453
+</field>
+        <field name="MPN">CC0603MRX5R6BB106
+</field>
+        <field name="MPN2">CL10A106KP8NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109453&#xA;"/>
+      <property name="MPN" value="CC0603MRX5R6BB106&#xA;"/>
+      <property name="MPN2" value="CL10A106KP8NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>dc830211-2a77-455e-bca2-50e94994f023</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e13ad65</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d70a665</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C109453
+</field>
+        <field name="MPN">CC0603MRX5R6BB106
+</field>
+        <field name="MPN2">CL10A106KP8NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C109453&#xA;"/>
+      <property name="MPN" value="CC0603MRX5R6BB106&#xA;"/>
+      <property name="MPN2" value="CL10A106KP8NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d84ad4b</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d7e08f6</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d7d6040</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326586
+</field>
+        <field name="MPN">CC0402KRX5R6BB475
+</field>
+        <field name="MPN2">CL05A475KP5NRNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C326586&#xA;"/>
+      <property name="MPN" value="CC0402KRX5R6BB475&#xA;"/>
+      <property name="MPN2" value="CL05A475KP5NRNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d84ad51</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d9ed4e9</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d31de39</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C2286</field>
+        <field name="MPN">KT-0603R</field>
+        <field name="MPN2">Any</field>
+        <field name="Manufacturer">Hubei KENTO Elec</field>
+        <field name="Manufacturer2">Any</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value=" C2286"/>
+      <property name="MPN" value="KT-0603R"/>
+      <property name="MPN2" value="Any"/>
+      <property name="Manufacturer" value="Hubei KENTO Elec"/>
+      <property name="Manufacturer2" value="Any"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005f76c0f5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>ORG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C375450</field>
+        <field name="MPN">E6C0603SEAC1UDA</field>
+        <field name="MPN2">Any</field>
+        <field name="Manufacturer">EKINGLUX</field>
+        <field name="Manufacturer2">Any</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C375450"/>
+      <property name="MPN" value="E6C0603SEAC1UDA"/>
+      <property name="MPN2" value="Any"/>
+      <property name="Manufacturer" value="EKINGLUX"/>
+      <property name="Manufacturer2" value="Any"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-000061a8dc3e</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+        <field name="MPN">19-217/GHC-YR1S2/3T</field>
+        <field name="MPN2">Any</field>
+        <field name="Manufacturer">Everlight Elec</field>
+        <field name="Manufacturer2">Any</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="MPN" value="19-217/GHC-YR1S2/3T"/>
+      <property name="MPN2" value="Any"/>
+      <property name="Manufacturer" value="Everlight Elec"/>
+      <property name="Manufacturer2" value="Any"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d13c806</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+        <field name="MPN">19-217/GHC-YR1S2/3T</field>
+        <field name="MPN2">Any</field>
+        <field name="Manufacturer">Everlight Elec</field>
+        <field name="Manufacturer2">Any</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="MPN" value="19-217/GHC-YR1S2/3T"/>
+      <property name="MPN2" value="Any"/>
+      <property name="Manufacturer" value="Everlight Elec"/>
+      <property name="Manufacturer2" value="Any"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d150811</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>MBR120</value>
+      <footprint>josh-passives-smt:D_SOD-123FL</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C236132</field>
+        <field name="MPN">MBR120ESFT1G</field>
+        <field name="MPN2">B5817WL</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer2">Shikues</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C236132"/>
+      <property name="MPN" value="MBR120ESFT1G"/>
+      <property name="MPN2" value="B5817WL"/>
+      <property name="Manufacturer" value="ON Semiconductor"/>
+      <property name="Manufacturer2" value="Shikues"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000610d95e0</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BLU</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72041</field>
+        <field name="MPN">19-217/BHC-ZL1M2RY/3T</field>
+        <field name="MPN2">Any</field>
+        <field name="Manufacturer">Everlight Elec</field>
+        <field name="Manufacturer2">Any</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72041"/>
+      <property name="MPN" value="19-217/BHC-ZL1M2RY/3T"/>
+      <property name="MPN2" value="Any"/>
+      <property name="Manufacturer" value="Everlight Elec"/>
+      <property name="Manufacturer2" value="Any"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000607e3254</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>FM-B2020RGBA-HG</value>
+      <footprint>josh-led:LED_TRI_2020</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C108793
+</field>
+        <field name="MPN">FM-B2020RGBA-HG
+</field>
+        <field name="Manufacturer">Foshan NationStar Optoelectronics
+</field>
+      </fields>
+      <libsource lib="Device" part="LED_RBAG" description="RGB LED, red/blue/anode/green"/>
+      <property name="LCSC" value="C108793&#xA;"/>
+      <property name="MPN" value="FM-B2020RGBA-HG&#xA;"/>
+      <property name="Manufacturer" value="Foshan NationStar Optoelectronics&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d15df05</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>josh-passives-smt:Fuse_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C210357</field>
+        <field name="MPN">MF-FSMF050X-2</field>
+        <field name="MPN2">0603L050SLYR</field>
+        <field name="Manufacturer">BOURNS</field>
+        <field name="Manufacturer2">Littelfuse</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="LCSC" value="C210357"/>
+      <property name="MPN" value="MF-FSMF050X-2"/>
+      <property name="MPN2" value="0603L050SLYR"/>
+      <property name="Manufacturer" value="BOURNS"/>
+      <property name="Manufacturer2" value="Littelfuse"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d2d3867</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>josh-connectors:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C165948
+</field>
+        <field name="MPN">TYPE-C-31-M-12
+</field>
+        <field name="MPN2">USB4105-GF-A
+</field>
+        <field name="Manufacturer">Korean Hroparts Elec
+</field>
+        <field name="Manufacturer2">GCT
+</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="LCSC" value="C165948&#xA;"/>
+      <property name="MPN" value="TYPE-C-31-M-12&#xA;"/>
+      <property name="MPN2" value="USB4105-GF-A&#xA;"/>
+      <property name="Manufacturer" value="Korean Hroparts Elec&#xA;"/>
+      <property name="Manufacturer2" value="GCT&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005ff3338b</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>JST_PH</value>
+      <footprint>josh-connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C47647</field>
+        <field name="MPN">S2B-PH-SM4-TB(LF)(SN)</field>
+        <field name="MPN2">C47647</field>
+        <field name="Manufacturer">JST</field>
+        <field name="Manufacturer2">BOOMELE(Boom Precision Elec)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C47647"/>
+      <property name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+      <property name="MPN2" value="C47647"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="Manufacturer2" value="BOOMELE(Boom Precision Elec)"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d367d4d</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP2045U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C459541</field>
+        <field name="MPN">DMP2045U-7</field>
+        <field name="MPN2">DMP2170U-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer2">Diodes Incorporated</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C459541"/>
+      <property name="MPN" value="DMP2045U-7"/>
+      <property name="MPN2" value="DMP2170U-7"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Manufacturer2" value="Diodes Incorporated"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000610f2c06</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105637</field>
+        <field name="MPN">RC0402JR-071KL</field>
+        <field name="MPN2">0402WGF1001TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105637"/>
+      <property name="MPN" value="RC0402JR-071KL"/>
+      <property name="MPN2" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f9b442f8-34f2-49ba-bd6f-c8a40bd2f83d</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105637</field>
+        <field name="MPN">RC0402JR-071KL</field>
+        <field name="MPN2">0402WGF1001TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105637"/>
+      <property name="MPN" value="RC0402JR-071KL"/>
+      <property name="MPN2" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>766cf237-b758-42b7-a307-7a6dab7eb920</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105873
+</field>
+        <field name="MPN">RC0402JR-075K1L
+</field>
+        <field name="MPN2">0402WGF5101TCE
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105873&#xA;"/>
+      <property name="MPN" value="RC0402JR-075K1L&#xA;"/>
+      <property name="MPN2" value="0402WGF5101TCE&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000604653fd</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C60491
+</field>
+        <field name="MPN">RC0402FR-07100KL
+</field>
+        <field name="MPN2">0402WGF1003TCE
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C60491&#xA;"/>
+      <property name="MPN" value="RC0402FR-07100KL&#xA;"/>
+      <property name="MPN2" value="0402WGF1003TCE&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-0000610c02cd</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105873
+</field>
+        <field name="MPN">RC0402JR-075K1L
+</field>
+        <field name="MPN2">0402WGF5101TCE
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105873&#xA;"/>
+      <property name="MPN" value="RC0402JR-075K1L&#xA;"/>
+      <property name="MPN2" value="0402WGF5101TCE&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-000060466650</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105637</field>
+        <field name="MPN">RC0402JR-071KL</field>
+        <field name="MPN2">0402WGF1001TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105637"/>
+      <property name="MPN" value="RC0402JR-071KL"/>
+      <property name="MPN2" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3e116233-bc2f-4b59-b270-536f9633a21b</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105637</field>
+        <field name="MPN">RC0402JR-071KL</field>
+        <field name="MPN2">0402WGF1001TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105637"/>
+      <property name="MPN" value="RC0402JR-071KL"/>
+      <property name="MPN2" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>987d1826-0469-4510-ba04-baf8d676b3e4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C60491
+</field>
+        <field name="MPN">RC0402FR-07100KL
+</field>
+        <field name="MPN2">0402WGF1003TCE
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C60491&#xA;"/>
+      <property name="MPN" value="RC0402FR-07100KL&#xA;"/>
+      <property name="MPN2" value="0402WGF1003TCE&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00006119d84a</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137923</field>
+        <field name="MPN">RC0402JR-0712KL</field>
+        <field name="MPN2">0402WGF1202TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C137923"/>
+      <property name="MPN" value="RC0402JR-0712KL"/>
+      <property name="MPN2" value="0402WGF1202TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-000061a09431</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105637</field>
+        <field name="MPN">RC0402JR-071KL</field>
+        <field name="MPN2">0402WGF1001TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105637"/>
+      <property name="MPN" value="RC0402JR-071KL"/>
+      <property name="MPN2" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8a1371cd-8f7b-47c2-b870-57f893f7bea2</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137923</field>
+        <field name="MPN">RC0402JR-0712KL</field>
+        <field name="MPN2">0402WGF1202TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C137923"/>
+      <property name="MPN" value="RC0402JR-0712KL"/>
+      <property name="MPN2" value="0402WGF1202TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d1d8818</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C106233</field>
+        <field name="MPN">RC0402JR-07100RL</field>
+        <field name="MPN2">0402WGF1000TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106233"/>
+      <property name="MPN" value="RC0402JR-07100RL"/>
+      <property name="MPN2" value="0402WGF1000TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d6fec3a</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C106233</field>
+        <field name="MPN">RC0402JR-07100RL</field>
+        <field name="MPN2">0402WGF1000TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106233"/>
+      <property name="MPN" value="RC0402JR-07100RL"/>
+      <property name="MPN2" value="0402WGF1000TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3e075203-8de3-4ab3-aa10-43cb19931840</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C106233</field>
+        <field name="MPN">RC0402JR-07100RL</field>
+        <field name="MPN2">0402WGF1000TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106233"/>
+      <property name="MPN" value="RC0402JR-07100RL"/>
+      <property name="MPN2" value="0402WGF1000TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b477188f-7564-4dae-843d-59b6132f80ce</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C106233</field>
+        <field name="MPN">RC0402JR-07100RL</field>
+        <field name="MPN2">0402WGF1000TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106233"/>
+      <property name="MPN" value="RC0402JR-07100RL"/>
+      <property name="MPN2" value="0402WGF1000TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>a7ae39da-2386-46ef-8542-78447d879288</tstamp>
+    </comp>
+    <comp ref="RN2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25725</field>
+        <field name="MPN">YC124-JR-0710KL</field>
+        <field name="MPN2">4D02WGJ0103TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="LCSC" value="C25725"/>
+      <property name="MPN" value="YC124-JR-0710KL"/>
+      <property name="MPN2" value="4D02WGJ0103TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005e2bd3ad</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>KMR2</value>
+      <footprint>josh-buttons-switches:SW_Push_KMR2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72443</field>
+        <field name="MPN">KMR221GLFS</field>
+        <field name="MPN2">TS-1185EC-C-D-B</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Manufacturer2">XKB Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C72443"/>
+      <property name="MPN" value="KMR221GLFS"/>
+      <property name="MPN2" value="TS-1185EC-C-D-B"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Manufacturer2" value="XKB Connectivity"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0531ed67-a33d-4af6-beb0-553475ac872b</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73831T-2</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C424093</field>
+        <field name="MPN">MCP73831T-2ACI/OT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+      </fields>
+      <libsource lib="josh-power" part="MCP73832-4-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.40V, Open-Drain Status Output, in SOT23-5 package"/>
+      <property name="LCSC" value="C424093"/>
+      <property name="MPN" value="MCP73831T-2ACI/OT"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d1900c1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP2127K-1.2</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C151376</field>
+        <field name="MPN">AP2127K-1.2TRG1</field>
+        <field name="MPN2">TLV70012DDCR</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer2">Texas Instruments</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2127K-1.2" description="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.2V fixed positive output, SOT-23-5"/>
+      <property name="LCSC" value="C151376"/>
+      <property name="MPN" value="AP2127K-1.2TRG1"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN2" value="TLV70012DDCR"/>
+      <property name="Manufacturer2" value="Texas Instruments"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f9c57fe0-31f1-49ad-bb30-b14f3bae9e80</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AP2112K-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C51118 </field>
+        <field name="MPN">AP2112K-3.3TRG1</field>
+        <field name="MPN2">AP7365-33WG-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer2">Diodes Incorporated</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <property name="LCSC" value="C51118 "/>
+      <property name="MPN" value="AP2112K-3.3TRG1"/>
+      <property name="MPN2" value="AP7365-33WG-7"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Manufacturer2" value="Diodes Incorporated"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00006119b65b</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>W25Q32JVZPIQ</value>
+      <footprint>josh-soic-sot-etc:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C571260</field>
+        <field name="MPN">W25Q32JVZPIQ</field>
+        <field name="Manufacturer">Winbond
+</field>
+      </fields>
+      <libsource lib="josh-memory" part="W25Q32JVZP" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8"/>
+      <property name="LCSC" value="C571260"/>
+      <property name="MPN" value="W25Q32JVZPIQ"/>
+      <property name="Manufacturer" value="Winbond&#xA;"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d1a5ce7</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ICE40UP5K-SG48I </value>
+      <footprint>josh-dfn-qfn:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias</footprint>
+      <datasheet>http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</datasheet>
+      <fields>
+        <field name="MPN">ICE40UP5K-SG48I </field>
+        <field name="Manufacturer">Lattice Semiconductor</field>
+      </fields>
+      <libsource lib="josh-ic" part="ICE40UP5K-SG48ITR" description="iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"/>
+      <property name="MPN" value="ICE40UP5K-SG48I "/>
+      <property name="Manufacturer" value="Lattice Semiconductor"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d149515</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>12MHz</value>
+      <footprint>josh-oscillators:CDFN_3.2x2.5mm_XO</footprint>
+      <fields>
+        <field name="LCSC">C387348</field>
+        <field name="MPN">DSC6101CI1A-012.0000T</field>
+        <field name="MPN2">S3D12.000000B20F30T</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer2">Shenzhen SCTF Elec</field>
+      </fields>
+      <libsource lib="josh-oscillator" part="DSC6101CI1A" description="MEMS OSC 12MHz"/>
+      <property name="MPN" value="DSC6101CI1A-012.0000T"/>
+      <property name="MPN2" value="S3D12.000000B20F30T"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Manufacturer2" value="Shenzhen SCTF Elec"/>
+      <property name="LCSC" value="C387348"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="iCE40-fpga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d1a645f</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>8012018f-27d0-431d-b9e9-c23ce14765fd</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd4803</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd472d</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd47fd</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd4838</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd482a</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C326586
+</field>
+        <field name="MPN">CC0402KRX5R6BB475
+</field>
+        <field name="MPN2">CL05A475KP5NRNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C326586&#xA;"/>
+      <property name="MPN" value="CC0402KRX5R6BB475&#xA;"/>
+      <property name="MPN2" value="CL05A475KP5NRNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00006027e5cc</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00006027df7d</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-000060243e75</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>915973be-fe6c-4cd7-98a3-f5716ed47a34</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C327009
+</field>
+        <field name="MPN">CC0402KRX7R7BB104</field>
+        <field name="MPN2">CL05B104KO5NNNC
+</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">Samsung Electro-Mechanics
+</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C327009&#xA;"/>
+      <property name="MPN" value="CC0402KRX7R7BB104"/>
+      <property name="MPN2" value="CL05B104KO5NNNC&#xA;"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="Samsung Electro-Mechanics&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd4831</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>600R</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C76884</field>
+        <field name="MPN">BLM15AG601SN1D</field>
+        <field name="MPN2">BK1005HW601-T</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer2">Taiyo Yuden</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <property name="LCSC" value="C76884"/>
+      <property name="MPN" value="BLM15AG601SN1D"/>
+      <property name="MPN2" value="BK1005HW601-T"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer2" value="Taiyo Yuden"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005d153b32</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>600R</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C76884</field>
+        <field name="MPN">BLM15AG601SN1D</field>
+        <field name="MPN2">BK1005HW601-T</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer2">Taiyo Yuden</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <property name="LCSC" value="C76884"/>
+      <property name="MPN" value="BLM15AG601SN1D"/>
+      <property name="MPN2" value="BK1005HW601-T"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer2" value="Taiyo Yuden"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005d1534fb</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C105637</field>
+        <field name="MPN">RC0402JR-071KL</field>
+        <field name="MPN2">0402WGF1001TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C105637"/>
+      <property name="MPN" value="RC0402JR-071KL"/>
+      <property name="MPN2" value="0402WGF1001TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd473f</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137923</field>
+        <field name="MPN">RC0402JR-0712KL</field>
+        <field name="MPN2">0402WGF1202TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C137923"/>
+      <property name="MPN" value="RC0402JR-0712KL"/>
+      <property name="MPN2" value="0402WGF1202TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd4779</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C137923</field>
+        <field name="MPN">RC0402JR-0712KL</field>
+        <field name="MPN2">0402WGF1202TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C137923"/>
+      <property name="MPN" value="RC0402JR-0712KL"/>
+      <property name="MPN2" value="0402WGF1202TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd476a</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0402</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25725</field>
+        <field name="MPN">YC124-JR-0710KL</field>
+        <field name="MPN2">4D02WGJ0103TCE</field>
+        <field name="Manufacturer">Yageo
+</field>
+        <field name="Manufacturer2">UNI-ROYAL(Uniroyal Elec)
+</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="LCSC" value="C25725"/>
+      <property name="MPN" value="YC124-JR-0710KL"/>
+      <property name="MPN2" value="4D02WGJ0103TCE"/>
+      <property name="Manufacturer" value="Yageo&#xA;"/>
+      <property name="Manufacturer2" value="UNI-ROYAL(Uniroyal Elec)&#xA;"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005edd474c</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>93LC46</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C616322</field>
+        <field name="MPN">93LC46BT-I/OT</field>
+        <field name="MPN2">93LC46BT-E/OT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer2">Microchip Technology</field>
+      </fields>
+      <libsource lib="josh-memory" part="93C46B" description="Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8"/>
+      <property name="LCSC" value="C616322"/>
+      <property name="MPN" value="93LC46BT-I/OT"/>
+      <property name="MPN2" value="93LC46BT-E/OT"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Manufacturer2" value="Microchip Technology"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005d14d3ed</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>FT2232H</value>
+      <footprint>josh-dfn-qfn:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm_ThermalVias</footprint>
+      <fields>
+        <field name="LCSC">C193662</field>
+        <field name="MPN">FT2232HQ</field>
+        <field name="Manufacturer">FTDI</field>
+      </fields>
+      <libsource lib="josh-ic" part="FT2232H" description="FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64"/>
+      <property name="LCSC" value="C193662"/>
+      <property name="MPN" value="FT2232HQ"/>
+      <property name="Manufacturer" value="FTDI"/>
+      <property name="Sheet name" value="FTDI Programmer / UART"/>
+      <property name="Sheet file" value="ftdi.kicad_sch"/>
+      <sheetpath names="/FTDI Programmer / UART/" tstamps="/00000000-0000-0000-0000-00005ed7ab6b/"/>
+      <tstamp>00000000-0000-0000-0000-00005d152328</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_RBAG">
+      <description>RGB LED, red/blue/anode/green</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RBAG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="BK" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="GK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2112K-3.3">
+      <description>600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2127K-1.2">
+      <description>300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.2V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2127.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2127K-1.2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2127.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-connector" part="Feather">
+      <description>Adafruit Feather Footprint</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Feather</field>
+        <field name="Footprint">josh-connectors:featherwing-typeC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="nRST" type="BiDi"/>
+        <pin num="2" name="3V3" type="power_out"/>
+        <pin num="3" name="ARef" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="IO0" type="BiDi"/>
+        <pin num="6" name="IO1" type="BiDi"/>
+        <pin num="7" name="IO2" type="BiDi"/>
+        <pin num="8" name="IO3" type="BiDi"/>
+        <pin num="9" name="IO4" type="BiDi"/>
+        <pin num="10" name="IO5" type="BiDi"/>
+        <pin num="11" name="IO6|SCK" type="BiDi"/>
+        <pin num="12" name="IO7|MOSI" type="BiDi"/>
+        <pin num="13" name="IO8|MISO" type="BiDi"/>
+        <pin num="14" name="IO9|RX" type="BiDi"/>
+        <pin num="15" name="IO10|TX" type="BiDi"/>
+        <pin num="16" name="NC" type="power_out"/>
+        <pin num="17" name="IO11|SDA" type="BiDi"/>
+        <pin num="18" name="IO12|SCL" type="BiDi"/>
+        <pin num="19" name="IO13" type="BiDi"/>
+        <pin num="20" name="IO14" type="BiDi"/>
+        <pin num="21" name="IO15" type="BiDi"/>
+        <pin num="22" name="IO16" type="BiDi"/>
+        <pin num="23" name="IO17" type="BiDi"/>
+        <pin num="24" name="IO18" type="BiDi"/>
+        <pin num="25" name="IO19" type="BiDi"/>
+        <pin num="26" name="VBUS" type="power_out"/>
+        <pin num="27" name="EN" type="BiDi"/>
+        <pin num="28" name="VBAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-ic" part="FT2232H">
+      <description>FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64</description>
+      <footprints>
+        <fp>QFN*</fp>
+        <fp>LQFP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT2232H</field>
+        <field name="Footprint">josh-dfn-qfn:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OSCI" type="input"/>
+        <pin num="3" name="OSCO" type="output"/>
+        <pin num="4" name="VPHY" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="REF" type="output"/>
+        <pin num="7" name="DM" type="BiDi"/>
+        <pin num="8" name="DP" type="BiDi"/>
+        <pin num="9" name="VPLL" type="input"/>
+        <pin num="10" name="AGND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VCORE" type="power_in"/>
+        <pin num="13" name="TEST" type="input"/>
+        <pin num="14" name="~RESET" type="input"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="ADBUS0" type="BiDi"/>
+        <pin num="17" name="ADBUS1" type="BiDi"/>
+        <pin num="18" name="ADBUS2" type="BiDi"/>
+        <pin num="19" name="ADBUS3" type="BiDi"/>
+        <pin num="20" name="VCCIO" type="power_in"/>
+        <pin num="21" name="ADBUS4" type="BiDi"/>
+        <pin num="22" name="ADBUS5" type="BiDi"/>
+        <pin num="23" name="ADBUS6" type="BiDi"/>
+        <pin num="24" name="ADBUS7" type="BiDi"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="ACBUS0" type="BiDi"/>
+        <pin num="27" name="ACBUS1" type="BiDi"/>
+        <pin num="28" name="ACBUS2" type="BiDi"/>
+        <pin num="29" name="ACBUS3" type="BiDi"/>
+        <pin num="30" name="ACBUS4" type="BiDi"/>
+        <pin num="31" name="VCCIO" type="power_in"/>
+        <pin num="32" name="ACBUS5" type="BiDi"/>
+        <pin num="33" name="ACBUS6" type="BiDi"/>
+        <pin num="34" name="ACBUS7" type="BiDi"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="~SUSPEND" type="output"/>
+        <pin num="37" name="VCORE" type="power_in"/>
+        <pin num="38" name="BDBUS0" type="BiDi"/>
+        <pin num="39" name="BDBUS1" type="BiDi"/>
+        <pin num="40" name="BDBUS2" type="BiDi"/>
+        <pin num="41" name="BDBUS3" type="BiDi"/>
+        <pin num="42" name="VCCIO" type="power_in"/>
+        <pin num="43" name="BDBUS4" type="BiDi"/>
+        <pin num="44" name="BDBUS5" type="BiDi"/>
+        <pin num="45" name="BDBUS6" type="BiDi"/>
+        <pin num="46" name="BDBUS7" type="BiDi"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="BCBUS0" type="BiDi"/>
+        <pin num="49" name="VREGOUT" type="power_out"/>
+        <pin num="50" name="VREGIN" type="power_in"/>
+        <pin num="51" name="GND" type="power_in"/>
+        <pin num="52" name="BCBUS1" type="BiDi"/>
+        <pin num="53" name="BCBUS2" type="BiDi"/>
+        <pin num="54" name="BCBUS3" type="BiDi"/>
+        <pin num="55" name="BCBUS4" type="BiDi"/>
+        <pin num="56" name="VCCIO" type="power_in"/>
+        <pin num="57" name="BCBUS5" type="BiDi"/>
+        <pin num="58" name="BCBUS6" type="BiDi"/>
+        <pin num="59" name="BCBUS7" type="BiDi"/>
+        <pin num="60" name="~PWREN" type="output"/>
+        <pin num="61" name="EEDATA" type="BiDi"/>
+        <pin num="62" name="EECLK" type="output"/>
+        <pin num="63" name="EECS" type="output"/>
+        <pin num="64" name="VCORE" type="power_in"/>
+        <pin num="65" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-ic" part="ICE40UP5K-SG48ITR">
+      <description>iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN</description>
+      <docs>http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</docs>
+      <footprints>
+        <fp>QFN*7x7mm*P0.5mm*EP5.6x5.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICE40UP5K-SG48ITR</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm_ThermalVias</field>
+        <field name="Datasheet">http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCIO_2" type="power_in"/>
+        <pin num="2" name="IOB_6a" type="BiDi"/>
+        <pin num="3" name="IOB_9b" type="BiDi"/>
+        <pin num="4" name="IOB_8a" type="BiDi"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="IOB_13b" type="BiDi"/>
+        <pin num="7" name="CDONE" type="openCol"/>
+        <pin num="8" name="~CRESET" type="input"/>
+        <pin num="9" name="IOB_16a" type="BiDi"/>
+        <pin num="10" name="IOB_18a" type="BiDi"/>
+        <pin num="11" name="IOB_20a" type="BiDi"/>
+        <pin num="12" name="IOB_22b" type="BiDi"/>
+        <pin num="13" name="IOB_24a" type="BiDi"/>
+        <pin num="14" name="IOB_32a_SPI_SO" type="BiDi"/>
+        <pin num="15" name="IOB_34a_SPI_SCK" type="BiDi"/>
+        <pin num="16" name="IOB_35b_SPI_SS" type="BiDi"/>
+        <pin num="17" name="IOB_33b_SPI_SI" type="BiDi"/>
+        <pin num="18" name="IOB_31b" type="BiDi"/>
+        <pin num="19" name="IOB_29b" type="BiDi"/>
+        <pin num="20" name="IOB_25b_G3" type="BiDi"/>
+        <pin num="21" name="IOB_23b" type="BiDi"/>
+        <pin num="22" name="SPI_VCCIO1" type="power_in"/>
+        <pin num="23" name="IOT_37a" type="BiDi"/>
+        <pin num="24" name="VPP_2V5" type="power_in"/>
+        <pin num="25" name="IOT_36b" type="BiDi"/>
+        <pin num="26" name="IOT_39a" type="BiDi"/>
+        <pin num="27" name="IOT_38b" type="BiDi"/>
+        <pin num="28" name="IOT_41a" type="BiDi"/>
+        <pin num="29" name="VCCPLL" type="power_out"/>
+        <pin num="30" name="VCC" type="passive"/>
+        <pin num="31" name="IOT_42b" type="BiDi"/>
+        <pin num="32" name="IOT_43a" type="BiDi"/>
+        <pin num="33" name="VCCIO_0" type="power_in"/>
+        <pin num="34" name="IOT_44b" type="BiDi"/>
+        <pin num="35" name="IOT_46b_G0" type="BiDi"/>
+        <pin num="36" name="IOT_48b" type="BiDi"/>
+        <pin num="37" name="IOT_45a_G1" type="BiDi"/>
+        <pin num="38" name="IOT_50b" type="BiDi"/>
+        <pin num="39" name="RGB0" type="openCol"/>
+        <pin num="40" name="RGB1" type="openCol"/>
+        <pin num="41" name="RGB2" type="openCol"/>
+        <pin num="42" name="IOT_51a" type="BiDi"/>
+        <pin num="43" name="IOT_49a" type="BiDi"/>
+        <pin num="44" name="IOB_3b_G6" type="BiDi"/>
+        <pin num="45" name="IOB_5b" type="BiDi"/>
+        <pin num="46" name="IOB_0a" type="BiDi"/>
+        <pin num="47" name="IOB_2a" type="BiDi"/>
+        <pin num="48" name="IOB_4a" type="BiDi"/>
+        <pin num="49" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-memory" part="93C46B">
+      <description>Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">93C46B</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="3state"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="SCLK" type="input"/>
+        <pin num="5" name="CS" type="input"/>
+        <pin num="6" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-memory" part="W25Q32JVZP">
+      <description>32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*6x5mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q32JVZP</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="DO(IO1)" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="BiDi"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-oscillator" part="DSC6101CI1A">
+      <description>MEMS OSC 12MHz</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">DSC6101CI1A</field>
+        <field name="Footprint">josh-oscillators:CDFN_3.2x2.5mm_XO</field>
+        <field name="MPN">DSC6101CI1A-012.0000T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE/STBY" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-passive" part="Ferrite_Bead_PWR">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_PWR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_out"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-power" part="MCP73832-4-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.40V, Open-Drain Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>*SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-4-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Switch.kicad_sym</uri>
+    </library>
+    <library logical="josh-connector">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/../../josh-kicad-lib/josh-connector.kicad_sym</uri>
+    </library>
+    <library logical="josh-ic">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/../../josh-kicad-lib/josh-ic.kicad_sym</uri>
+    </library>
+    <library logical="josh-memory">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/../../josh-kicad-lib/josh-memory.kicad_sym</uri>
+    </library>
+    <library logical="josh-oscillator">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/../../josh-kicad-lib/josh-oscillator.kicad_sym</uri>
+    </library>
+    <library logical="josh-passive">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/../../josh-kicad-lib/josh-passive.kicad_sym</uri>
+    </library>
+    <library logical="josh-power">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/iCE40-feather/hardware/0.2/../../josh-kicad-lib/josh-power.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2">
+      <node ref="C24" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U2" pin="5" pinfunction="VOUT"/>
+      <node ref="U7" pin="30" pinfunction="VCC"/>
+      <node ref="U7" pin="5" pinfunction="VCC"/>
+    </net>
+    <net code="2" name="+1V8">
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U5" pin="12" pinfunction="VCORE"/>
+      <node ref="U5" pin="37" pinfunction="VCORE"/>
+      <node ref="U5" pin="49" pinfunction="VREGOUT"/>
+      <node ref="U5" pin="64" pinfunction="VCORE"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D1" pin="2" pinfunction="A"/>
+      <node ref="D3" pin="2" pinfunction="A"/>
+      <node ref="D4" pin="2" pinfunction="A"/>
+      <node ref="D7" pin="3" pinfunction="A"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="RN1" pin="5" pinfunction="R4.2"/>
+      <node ref="RN1" pin="6" pinfunction="R3.2"/>
+      <node ref="RN1" pin="7" pinfunction="R2.2"/>
+      <node ref="RN1" pin="8" pinfunction="R1.2"/>
+      <node ref="RN2" pin="5" pinfunction="R4.2"/>
+      <node ref="RN2" pin="6" pinfunction="R3.2"/>
+      <node ref="RN2" pin="7" pinfunction="R2.2"/>
+      <node ref="RN2" pin="8" pinfunction="R1.2"/>
+      <node ref="U3" pin="5" pinfunction="VOUT"/>
+      <node ref="U4" pin="6" pinfunction="VCC"/>
+      <node ref="U5" pin="20" pinfunction="VCCIO"/>
+      <node ref="U5" pin="31" pinfunction="VCCIO"/>
+      <node ref="U5" pin="42" pinfunction="VCCIO"/>
+      <node ref="U5" pin="50" pinfunction="VREGIN"/>
+      <node ref="U5" pin="56" pinfunction="VCCIO"/>
+      <node ref="U6" pin="8" pinfunction="VCC"/>
+      <node ref="U7" pin="1" pinfunction="VCCIO_2"/>
+      <node ref="U7" pin="22" pinfunction="SPI_VCCIO1"/>
+      <node ref="U7" pin="24" pinfunction="VPP_2V5"/>
+      <node ref="U7" pin="33" pinfunction="VCCIO_0"/>
+      <node ref="X1" pin="1" pinfunction="OE/STBY"/>
+      <node ref="X1" pin="4" pinfunction="VDD"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="D2" pin="2" pinfunction="A"/>
+      <node ref="D5" pin="2" pinfunction="A"/>
+      <node ref="F1" pin="1"/>
+      <node ref="Q1" pin="1" pinfunction="G"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="4" pinfunction="VDD"/>
+    </net>
+    <net code="5" name="+BATT">
+      <node ref="C4" pin="1"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1"/>
+      <node ref="Q1" pin="3" pinfunction="D"/>
+      <node ref="U1" pin="3" pinfunction="VBAT"/>
+    </net>
+    <net code="6" name="/FLASH_MISO|IO1">
+      <node ref="U5" pin="18" pinfunction="ADBUS2"/>
+      <node ref="U6" pin="2" pinfunction="DO(IO1)"/>
+      <node ref="U7" pin="17" pinfunction="IOB_33b_SPI_SI"/>
+    </net>
+    <net code="7" name="/FLASH_MOSI|IO0">
+      <node ref="U5" pin="17" pinfunction="ADBUS1"/>
+      <node ref="U6" pin="5" pinfunction="DI(IO0)"/>
+      <node ref="U7" pin="14" pinfunction="IOB_32a_SPI_SO"/>
+    </net>
+    <net code="8" name="/FLASH_SCK">
+      <node ref="RN2" pin="1" pinfunction="R1.1"/>
+      <node ref="U5" pin="16" pinfunction="ADBUS0"/>
+      <node ref="U6" pin="6" pinfunction="CLK"/>
+      <node ref="U7" pin="15" pinfunction="IOB_34a_SPI_SCK"/>
+    </net>
+    <net code="9" name="/FLASH_nCS">
+      <node ref="RN2" pin="4" pinfunction="R4.1"/>
+      <node ref="U5" pin="21" pinfunction="ADBUS4"/>
+      <node ref="U6" pin="1" pinfunction="~CS"/>
+      <node ref="U7" pin="16" pinfunction="IOB_35b_SPI_SS"/>
+    </net>
+    <net code="10" name="/FLASH_nHOLD|IO3">
+      <node ref="RN2" pin="3" pinfunction="R3.1"/>
+      <node ref="U6" pin="7" pinfunction="IO3"/>
+      <node ref="U7" pin="18" pinfunction="IOB_31b"/>
+    </net>
+    <net code="11" name="/FLASH_nWP|IO2">
+      <node ref="RN2" pin="2" pinfunction="R2.1"/>
+      <node ref="U6" pin="3" pinfunction="IO2"/>
+      <node ref="U7" pin="13" pinfunction="IOB_24a"/>
+    </net>
+    <net code="12" name="/FTDI Programmer / UART/FT_EECLK">
+      <node ref="RN1" pin="3" pinfunction="R3.1"/>
+      <node ref="U4" pin="4" pinfunction="SCLK"/>
+      <node ref="U5" pin="62" pinfunction="EECLK"/>
+    </net>
+    <net code="13" name="/FTDI Programmer / UART/FT_EECS">
+      <node ref="RN1" pin="2" pinfunction="R2.1"/>
+      <node ref="U4" pin="5" pinfunction="CS"/>
+      <node ref="U5" pin="63" pinfunction="EECS"/>
+    </net>
+    <net code="14" name="/FTDI Programmer / UART/FT_EEDATA">
+      <node ref="R10" pin="1"/>
+      <node ref="RN1" pin="4" pinfunction="R4.1"/>
+      <node ref="U4" pin="3" pinfunction="DI"/>
+      <node ref="U5" pin="61" pinfunction="EEDATA"/>
+    </net>
+    <net code="15" name="/ICE_CDONE">
+      <node ref="D6" pin="2" pinfunction="A"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U5" pin="23" pinfunction="ADBUS6"/>
+      <node ref="U7" pin="7" pinfunction="CDONE"/>
+    </net>
+    <net code="16" name="/ICE_CLK">
+      <node ref="U5" pin="2" pinfunction="OSCI"/>
+      <node ref="U7" pin="35" pinfunction="IOT_46b_G0"/>
+      <node ref="X1" pin="3" pinfunction="OUT"/>
+    </net>
+    <net code="17" name="/LDO_EN">
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="3" pinfunction="EN"/>
+    </net>
+    <net code="18" name="/P_02">
+      <node ref="U7" pin="2" pinfunction="IOB_6a"/>
+    </net>
+    <net code="19" name="/P_03">
+      <node ref="U7" pin="3" pinfunction="IOB_9b"/>
+    </net>
+    <net code="20" name="/P_04">
+      <node ref="U7" pin="4" pinfunction="IOB_8a"/>
+    </net>
+    <net code="21" name="/P_06">
+      <node ref="U7" pin="6" pinfunction="IOB_13b"/>
+    </net>
+    <net code="22" name="/P_09">
+      <node ref="U7" pin="9" pinfunction="IOB_16a"/>
+    </net>
+    <net code="23" name="/P_10">
+      <node ref="U7" pin="10" pinfunction="IOB_18a"/>
+    </net>
+    <net code="24" name="/P_11">
+      <node ref="U7" pin="11" pinfunction="IOB_20a"/>
+    </net>
+    <net code="25" name="/P_12">
+      <node ref="U7" pin="12" pinfunction="IOB_22b"/>
+    </net>
+    <net code="26" name="/P_19">
+      <node ref="U7" pin="19" pinfunction="IOB_29b"/>
+    </net>
+    <net code="27" name="/P_25">
+      <node ref="U7" pin="25" pinfunction="IOT_36b"/>
+    </net>
+    <net code="28" name="/P_26">
+      <node ref="U7" pin="26" pinfunction="IOT_39a"/>
+    </net>
+    <net code="29" name="/P_27">
+      <node ref="U7" pin="27" pinfunction="IOT_38b"/>
+    </net>
+    <net code="30" name="/P_28">
+      <node ref="U7" pin="28" pinfunction="IOT_41a"/>
+    </net>
+    <net code="31" name="/P_31">
+      <node ref="U7" pin="31" pinfunction="IOT_42b"/>
+    </net>
+    <net code="32" name="/P_32">
+      <node ref="U7" pin="32" pinfunction="IOT_43a"/>
+    </net>
+    <net code="33" name="/P_36">
+      <node ref="U7" pin="36" pinfunction="IOT_48b"/>
+    </net>
+    <net code="34" name="/P_37">
+      <node ref="U7" pin="37" pinfunction="IOT_45a_G1"/>
+    </net>
+    <net code="35" name="/P_38">
+      <node ref="U7" pin="38" pinfunction="IOT_50b"/>
+    </net>
+    <net code="36" name="/P_43">
+      <node ref="U7" pin="43" pinfunction="IOT_49a"/>
+    </net>
+    <net code="37" name="/P_44">
+      <node ref="U7" pin="44" pinfunction="IOB_3b_G6"/>
+    </net>
+    <net code="38" name="/P_48">
+      <node ref="U7" pin="48" pinfunction="IOB_4a"/>
+    </net>
+    <net code="39" name="/UART_RX">
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="38" pinfunction="BDBUS0"/>
+      <node ref="U7" pin="23" pinfunction="IOT_37a"/>
+    </net>
+    <net code="40" name="/UART_TX">
+      <node ref="R7" pin="1"/>
+      <node ref="U5" pin="39" pinfunction="BDBUS1"/>
+      <node ref="U7" pin="21" pinfunction="IOB_23b"/>
+    </net>
+    <net code="41" name="/USB_N">
+      <node ref="J1" pin="A7" pinfunction="D-"/>
+      <node ref="J1" pin="B7" pinfunction="D-"/>
+      <node ref="U5" pin="7" pinfunction="DM"/>
+    </net>
+    <net code="42" name="/USB_P">
+      <node ref="J1" pin="A6" pinfunction="D+"/>
+      <node ref="J1" pin="B6" pinfunction="D+"/>
+      <node ref="U5" pin="8" pinfunction="DP"/>
+    </net>
+    <net code="43" name="/nICE_CRESET">
+      <node ref="R14" pin="2"/>
+      <node ref="SW1" pin="1" pinfunction="1"/>
+      <node ref="U5" pin="24" pinfunction="ADBUS7"/>
+      <node ref="U7" pin="8" pinfunction="~CRESET"/>
+    </net>
+    <net code="44" name="/nLED">
+      <node ref="R1" pin="2"/>
+      <node ref="U7" pin="47" pinfunction="IOB_2a"/>
+    </net>
+    <net code="45" name="/nLED_BLU">
+      <node ref="R16" pin="2"/>
+      <node ref="U7" pin="39" pinfunction="RGB0"/>
+    </net>
+    <net code="46" name="/nLED_GRN">
+      <node ref="R17" pin="2"/>
+      <node ref="U7" pin="40" pinfunction="RGB1"/>
+    </net>
+    <net code="47" name="/nLED_RED">
+      <node ref="R18" pin="2"/>
+      <node ref="U7" pin="41" pinfunction="RGB2"/>
+    </net>
+    <net code="48" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D6" pin="1" pinfunction="K"/>
+      <node ref="J1" pin="A1" pinfunction="GND"/>
+      <node ref="J1" pin="A12" pinfunction="GND"/>
+      <node ref="J1" pin="B1" pinfunction="GND"/>
+      <node ref="J1" pin="B12" pinfunction="GND"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="SW1" pin="2" pinfunction="2"/>
+      <node ref="U1" pin="2" pinfunction="VSS"/>
+      <node ref="U2" pin="2" pinfunction="GND"/>
+      <node ref="U3" pin="2" pinfunction="GND"/>
+      <node ref="U4" pin="2" pinfunction="GND"/>
+      <node ref="U5" pin="1" pinfunction="GND"/>
+      <node ref="U5" pin="10" pinfunction="AGND"/>
+      <node ref="U5" pin="11" pinfunction="GND"/>
+      <node ref="U5" pin="13" pinfunction="TEST"/>
+      <node ref="U5" pin="15" pinfunction="GND"/>
+      <node ref="U5" pin="25" pinfunction="GND"/>
+      <node ref="U5" pin="35" pinfunction="GND"/>
+      <node ref="U5" pin="47" pinfunction="GND"/>
+      <node ref="U5" pin="5" pinfunction="GND"/>
+      <node ref="U5" pin="51" pinfunction="GND"/>
+      <node ref="U5" pin="65" pinfunction="EP"/>
+      <node ref="U6" pin="4" pinfunction="GND"/>
+      <node ref="U6" pin="9" pinfunction="EP"/>
+      <node ref="U7" pin="49" pinfunction="GND"/>
+      <node ref="X1" pin="2" pinfunction="GND"/>
+    </net>
+    <net code="49" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS"/>
+    </net>
+    <net code="50" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D5" pin="1" pinfunction="K"/>
+      <node ref="Q1" pin="2" pinfunction="S"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="1" pinfunction="VIN"/>
+      <node ref="U2" pin="3" pinfunction="EN"/>
+      <node ref="U3" pin="1" pinfunction="VIN"/>
+    </net>
+    <net code="51" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="U5" pin="4" pinfunction="VPHY"/>
+    </net>
+    <net code="52" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="U5" pin="9" pinfunction="VPLL"/>
+    </net>
+    <net code="53" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U7" pin="29" pinfunction="VCCPLL"/>
+    </net>
+    <net code="54" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="RK"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="BK"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="60" name="Net-(D7-Pad4)">
+      <node ref="D7" pin="4" pinfunction="GK"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="61" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="62" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="1" pinfunction="STAT"/>
+    </net>
+    <net code="64" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="5" pinfunction="PROG"/>
+    </net>
+    <net code="65" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U4" pin="1" pinfunction="DO"/>
+    </net>
+    <net code="66" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U5" pin="6" pinfunction="REF"/>
+    </net>
+    <net code="67" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U5" pin="14" pinfunction="~RESET"/>
+    </net>
+    <net code="68" name="Net-(TP500-Pad1)">
+      <node ref="U7" pin="20" pinfunction="IOB_25b_G3"/>
+    </net>
+    <net code="69" name="Net-(TP501-Pad1)">
+      <node ref="U7" pin="46" pinfunction="IOB_0a"/>
+    </net>
+    <net code="70" name="Net-(TP502-Pad1)">
+      <node ref="U7" pin="45" pinfunction="IOB_5b"/>
+    </net>
+    <net code="71" name="Net-(TP503-Pad1)">
+      <node ref="U7" pin="42" pinfunction="IOT_51a"/>
+    </net>
+    <net code="72" name="Net-(TP504-Pad1)">
+      <node ref="U7" pin="34" pinfunction="IOT_44b"/>
+    </net>
+    <net code="73" name="no_connect_73">
+      <node ref="J1" pin="A8" pinfunction="SBU1"/>
+    </net>
+    <net code="74" name="no_connect_74">
+      <node ref="J1" pin="B8" pinfunction="SBU2"/>
+    </net>
+    <net code="75" name="no_connect_75">
+      <node ref="RN1" pin="1" pinfunction="R1.1"/>
+    </net>
+    <net code="76" name="no_connect_76">
+      <node ref="U5" pin="19" pinfunction="ADBUS3"/>
+    </net>
+    <net code="77" name="no_connect_77">
+      <node ref="U5" pin="22" pinfunction="ADBUS5"/>
+    </net>
+    <net code="78" name="no_connect_78">
+      <node ref="U5" pin="26" pinfunction="ACBUS0"/>
+    </net>
+    <net code="79" name="no_connect_79">
+      <node ref="U5" pin="27" pinfunction="ACBUS1"/>
+    </net>
+    <net code="80" name="no_connect_80">
+      <node ref="U5" pin="28" pinfunction="ACBUS2"/>
+    </net>
+    <net code="81" name="no_connect_81">
+      <node ref="U5" pin="29" pinfunction="ACBUS3"/>
+    </net>
+    <net code="82" name="no_connect_82">
+      <node ref="U5" pin="3" pinfunction="OSCO"/>
+    </net>
+    <net code="83" name="no_connect_83">
+      <node ref="U5" pin="30" pinfunction="ACBUS4"/>
+    </net>
+    <net code="84" name="no_connect_84">
+      <node ref="U5" pin="32" pinfunction="ACBUS5"/>
+    </net>
+    <net code="85" name="no_connect_85">
+      <node ref="U5" pin="33" pinfunction="ACBUS6"/>
+    </net>
+    <net code="86" name="no_connect_86">
+      <node ref="U5" pin="34" pinfunction="ACBUS7"/>
+    </net>
+    <net code="87" name="no_connect_87">
+      <node ref="U5" pin="36" pinfunction="~SUSPEND"/>
+    </net>
+    <net code="88" name="no_connect_88">
+      <node ref="U5" pin="40" pinfunction="BDBUS2"/>
+    </net>
+    <net code="89" name="no_connect_89">
+      <node ref="U5" pin="41" pinfunction="BDBUS3"/>
+    </net>
+    <net code="90" name="no_connect_90">
+      <node ref="U5" pin="43" pinfunction="BDBUS4"/>
+    </net>
+    <net code="91" name="no_connect_91">
+      <node ref="U5" pin="44" pinfunction="BDBUS5"/>
+    </net>
+    <net code="92" name="no_connect_92">
+      <node ref="U5" pin="45" pinfunction="BDBUS6"/>
+    </net>
+    <net code="93" name="no_connect_93">
+      <node ref="U5" pin="46" pinfunction="BDBUS7"/>
+    </net>
+    <net code="94" name="no_connect_94">
+      <node ref="U5" pin="48" pinfunction="BCBUS0"/>
+    </net>
+    <net code="95" name="no_connect_95">
+      <node ref="U5" pin="52" pinfunction="BCBUS1"/>
+    </net>
+    <net code="96" name="no_connect_96">
+      <node ref="U5" pin="53" pinfunction="BCBUS2"/>
+    </net>
+    <net code="97" name="no_connect_97">
+      <node ref="U5" pin="54" pinfunction="BCBUS3"/>
+    </net>
+    <net code="98" name="no_connect_98">
+      <node ref="U5" pin="55" pinfunction="BCBUS4"/>
+    </net>
+    <net code="99" name="no_connect_99">
+      <node ref="U5" pin="57" pinfunction="BCBUS5"/>
+    </net>
+    <net code="100" name="no_connect_100">
+      <node ref="U5" pin="58" pinfunction="BCBUS6"/>
+    </net>
+    <net code="101" name="no_connect_101">
+      <node ref="U5" pin="59" pinfunction="BCBUS7"/>
+    </net>
+    <net code="102" name="no_connect_102">
+      <node ref="U5" pin="60" pinfunction="~PWREN"/>
+    </net>
+  </nets>
+</export>
