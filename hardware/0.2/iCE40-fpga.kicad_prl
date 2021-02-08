@@ -1,7 +1,8 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 0,
     "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -58,7 +59,9 @@
       29,
       30,
       37,
-      38
+      38,
+      39,
+      40
     ],
     "visible_layers": "000bfff_80000007",
     "zone_display_mode": 1
