@@ -1,12 +1,5 @@
 # iCE40-feather
 
-```
-Revision 0.1 was designed in 2019, tested and working.
-Revision 0.2 was designed in 2021, makes a number of changes including a Type-C connector and is untested.  
-
-Designed in KiCad nightly, ensure you clone --recursive to pull in parts library.
-```
-
 ![iCE40-feather render](docs/top-render.png)
 
 iCE40 Feather is a Lattice iCE40UP5K FPGA in the [Adafruit Feather form factor](https://learn.adafruit.com/adafruit-feather/feather-specification).
